@@ -10,7 +10,7 @@ _author__ = 'Микелин Александр Игоревич'
 # Вариант 1
 import random
 
-a = str(random.randit(10, 10000))
+a = str(random.randint(10, 10000))
 b = 0
 print("Случайное число: ", a)
 while b < len(a):
